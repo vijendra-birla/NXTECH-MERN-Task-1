@@ -12,14 +12,3 @@ mongoose.connect(DB, conectionParams).then(() => {
 }).catch((e) => {
     console.log(e)
 })
-
-// const transactionSchema = new mongoose.Schema({
-//     'name': String,
-//     'price': Number,
-//     'datetime': String,
-//     'description': String
-// });
-
-// const transaction = mongoose.model("transaction", transactionSchema);
-
-// module.exports = transaction;
