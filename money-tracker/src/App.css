@@ -1,0 +1,139 @@
+/* ----------------Money-Traker------------ */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: aliceblue ;
+
+}
+header{
+  background-color:rgb(5, 5, 47);
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.container{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    border-radius:15px ;
+    background-color: #e8eded;
+   }
+/* -------------Home ------------- */
+
+ h4{
+  text-align: center;
+  padding: 5px;
+  color: rgb(5, 5, 47);
+}
+.view-balance h1{
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.view-balance span{
+  color: rgb(5, 5, 47);
+
+font-size: 1.8rem;
+}
+
+.balance.green{
+  color: green;
+  font-size: 2rem;
+}
+
+.balance.red{
+  color: red;
+  font-size: 2rem;
+}
+
+
+.price.red{
+  color: red;
+  font-size: 1.2rem;
+
+}
+
+.price.green{
+  color: green;
+  font-size: 1.2rem;
+
+}
+
+form{
+  padding-inline: 20px;
+
+}
+
+form input,textarea {
+  border-radius: 5px;
+  color: rgb(5, 5, 47);
+  border-color:rgb(5, 5, 47);
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: white;
+}
+
+form .product-detail {
+  display: flex;
+  gap: 5px;
+}
+
+form button {
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  color: white;
+  background-color: rgb(5, 5, 47);
+  ;
+
+}
+/* -------------Transactions----------------- */
+
+.transactions{
+  padding-inline: 20px;
+  
+}
+
+.transactions .transaction {
+  display: flex;
+  color: rgb(5, 5, 47);
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 2px solid rgb(5, 5, 47);
+  ;
+}
+
+.transaction:first-child{
+  border-top: 0px solid;
+
+}
+
+ div.right {
+  text-align: right;
+}
+
+.transaction div.name{
+  font-size: 1.3rem;
+}
+.transaction div.description{
+  font-size: .9rem;
+}
+
+.transaction div.date-time{
+  font-size: .9rem;
+}
+
+.icon{
+  color: red;
+}
+
+
+
