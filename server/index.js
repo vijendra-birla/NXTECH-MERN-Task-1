@@ -13,22 +13,6 @@ const PORT = 4040 ;
 app.use(cors()) ;
 app.use(bodyParser.json()) ;
 
-
-// const DB= 'mongodb+srv://birla:birla149@cluster0.ji6vpf2.mongodb.net/moneytracker?retryWrites=true&w=majority'
-
-
-
-// const conectionParams ={
-//     useNewUrlParser: true, 
-//     useUnifiedTopology: true
-// }
-// mongoose.connect(DB,conectionParams).then(()=>{
-//     console.log('connected successfuly')
-// }).catch((e)=>{
-//     console.log(e)
-// })
-
-
 app.listen(PORT,()=>{
     console.log(`Server Is Runing On Port :${PORT}`) ;
 })
